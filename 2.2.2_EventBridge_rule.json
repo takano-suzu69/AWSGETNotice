@@ -1,0 +1,11 @@
+{
+  "source": ["aws.signin"],
+  "detail-type": ["AWS Console Sign In via CloudTrail"],
+  "detail": {
+    "userIdentity": {
+      "type": ["Root"]
+    },
+    "eventSource": ["signin.amazonaws.com"],
+    "eventName": ["ConsoleLogin"]
+  }
+}
